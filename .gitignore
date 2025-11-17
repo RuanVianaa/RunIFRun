@@ -1,6 +1,4 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
-# Arquivos de exportação
+# Godot 4.x.godot/
+#Arquivos de exportação
 *.pck
 *.exe
