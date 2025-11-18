@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxgmpxs2ccxlj"]
+
+[ext_resource type="PackedScene" uid="uid://cvj7lgyto6pq8" path="res://scenes/bg.tscn" id="1_sugp2"]
+[ext_resource type="PackedScene" uid="uid://c1lhc1vii34rl" path="res://scenes/ground.tscn" id="2_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://b8t1i7nvwec2x" path="res://scenes/player.tscn" id="3_tbgi4"]
+
+[node name="Main" type="Node"]
+
+[node name="bg" parent="." instance=ExtResource("1_sugp2")]
+
+[node name="Ground" parent="." instance=ExtResource("2_jyhfs")]
+
+[node name="player" parent="." instance=ExtResource("3_tbgi4")]
+position = Vector2(48, 528)
+scale = Vector2(2, 2)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)

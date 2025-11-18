@@ -1,0 +1,4 @@
+res://scenes/main.tscn
+res://scenes/player.tscn
+res://scenes/ground.tscn
+res://scenes/player.gd
